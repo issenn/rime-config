@@ -1,0 +1,25 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+---
+patch:
+  schema/+:
+    name: 日本語
+
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      states: [ 漢字, 汉字 ]
+    # - options: [jp_variants, zh_simp, zh_tw ]
+    # - options: [zh_simp, zh_tw ]
+    #   reset: 0
+    #   states:
+    #     # - 字形 → 日本
+    #     - 字形 → 大陸
+    #     - 字形 → 台灣
+    - name: ascii_punct
+      states: [ 。，, ．， ]

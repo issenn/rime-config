@@ -1,0 +1,11 @@
+# encoding: utf-8
+---
+# https://github.com/rime-aca/dictionaries
+# https://github.com/rime/home/issues/44
+# https://github.com/alswl/Rime
+
+name: issenn
+version: "2020.03.23"
+sort: by_weight
+use_preset_vocabulary: true
+...

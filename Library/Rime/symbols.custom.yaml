@@ -1,0 +1,8 @@
+# encoding: utf-8
+---
+# https://github.com/rime/home/issues/458
+patch:
+  punctuator/+:
+    symbols/+:
+      '/gr': [issennknight@gmail.com, issenn@issenn.ml, issenn]
+      '/gc': [✓, ✔, ☑, ✗, ✘, ☒]

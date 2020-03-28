@@ -1,0 +1,107 @@
+# encoding: utf-8
+---
+# https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
+# https://github.com/rime/home/wiki/CustomizationGuide
+# https://github.com/rime/home/wiki/Configuration
+
+customization:
+  distribution_code_name: Squirrel
+  distribution_version: 0.14.0
+  modified_time: "2020-03-23"
+  rime_version: 1.5.3
+
+patch:
+  # show_notifications_when: appropriate      # 状态通知，适当，也可设为全开（always）全关（never）
+
+  style/+:
+    # __include: squirrel.yaml:/style?
+    # color_scheme: solarized_rock
+    color_scheme: issenn
+    # display_tray_icon: false
+    # horizontal: true                        # 候選橫排# true 水平排列，false 竖排显示
+    inline_preedit: false
+    font_face: "MesloLGSNer-Regular"
+    # font_point: 14
+    label_font_face: "MesloLGSNer-Regular"    # 候选词编号字体
+    # label_font_point: 14                    # 候选编号大小
+
+  preset_color_schemes/+:
+    apathy/+:
+      horizontal: false                       # true 水平排列，false 竖排显示
+      inline_preedit: false                   # true 单行显示，false 双行显示
+      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_point: 19                          # 候选字词大小
+      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_point: 16                    # 候选编号大小
+    solarized_rock/+:
+      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_point: 19                          # 候选字词大小
+      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_point: 16                    # 候选编号大小
+    azure/+:
+      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_point: 19                          # 候选字词大小
+      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_point: 16                    # 候选编号大小
+    issenn:
+      name: "一閃 / issenn"
+      author: "Issenn <issenn@issenn.ml>, based on Aben and Ethan Schoonover's Solarized color scheme"
+      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_point: 19                          # 候选窗文字字号
+      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_point: 16                    # 候选窗编号字号
+      horizontal: false                       # 候选窗横向显示
+      # inline_preedit: true                    # 开启嵌入编码
+      candidate_format: "%c\u2005%@\u2005"    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 10                       # 候选条窗口圆角半径
+      border_height: 0                        # 窗口边界高度，大于圆角半径才生效
+      border_width: 0                         # 窗口边界宽度，大于圆角半径才生效
+      line_spacing: 5
+      spacing: 10
+      # hilited_corner_radius: 6                # 高亮圆角
+      back_color: 0x362b00                    # 候选条背景色
+      border_color_width: 1
+      border_color: 0x362b00                  # 边框色
+      text_color: 0x8236d3                    # 编码行文字颜色，24位色值，16进制，BGR顺序
+      hilited_text_color: 0x98a12a            # 编码高亮
+      # hilited_back_color: 0xffffff            # 编码背景高亮
+      # label_color: 0x555555                   # 次选编号色
+      candidate_text_color: 0x969483          # 次选文字色
+      # candidate_back_color: 0xffffff          # 次选背景色
+      comment_text_color: 0xc098a12a          # 次选提示字母色
+      # hilited_candidate_label_color: 0xeeeeee # 首选编号色
+      hilited_candidate_text_color: 0xffffff  # 首选文字色
+      hilited_candidate_back_color: 0x8236d3  # 首选背景色
+      hilited_comment_text_color: 0x362b00    # 首选提示字母色
+
+  # --- 特定程序定义初始状态的英文输入 ---
+  app_options/+:
+    # com.apple.launchpad.launcher:           # 启动面板，目前不起作用
+    #   ascii_mode: true
+    # com.hegenberg.BetterTouchTool:
+    #   ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.jetbrains.pycharm:
+      ascii_mode: true
+    com.jetbrains.WebStorm:
+      ascii_mode: true
+    com.jetbrains.PhpStorm:
+      ascii_mode: true
+    com.jetbrains.CLion:
+      ascii_mode: true
+    com.jetbrains.goland:
+      ascii_mode: true
+      # vim_mode: true
+    com.jetbrains.rubymine:
+      ascii_mode: true
+    com.jetbrains.datagrip:
+      ascii_mode: true
+    com.kapeli.dashdoc:
+      ascii_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+    com.apple.Safari:
+      ascii_mode: true
+    com.apple.finder:
+      ascii_mode: true

@@ -1,0 +1,39 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#  BetterRime词库增强包－实用版の准正式版 by @imy0823
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: terra_pinyin.extended
+version: "2014.09.07"
+sort: by_weight
+use_preset_vocabulary: true
+# 下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
+# 雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
+import_tables:
+  - terra_pinyin
+  - terra_pinyin.extra_hanzi  # 生僻汉字库
+  - luna_pinyin.sgmain        # 搜狗核心词库
+  - luna_pinyin.sgplus        # 搜狗扩展词库1
+  - luna_pinyin.sgplus2       # 搜狗扩展词库2
+  - luna_pinyin.chat          # 日常聊天常用词，请叫我聊天达人。3.5k
+  - luna_pinyin.net           # 网络流行词，网上聊天常用的语句。3.6w
+  - luna_pinyin.user          # 词库增强包
+  # - luna_pinyin.cn_en         # 中英混合词条
+  # - luna_pinyin.english       # 英文单词库
+  # - luna_pinyin.biaoqing      # 输入‘v v’弹出的颜文字词库
+  - luna_pinyin.website       # 网站大全，百度、知乎等。5k
+  - luna_pinyin.poetry        # 常用诗词，来源于唐宋诗词、千家詩、花間集、楚辭、詩經。 2.6w
+  - luna_pinyin.computer      # 计算机术语词库
+  - luna_pinyin.place         # 地名词库
+  - luna_pinyin.shopping      # 商品词库
+...
