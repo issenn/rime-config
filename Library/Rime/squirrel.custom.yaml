@@ -20,35 +20,35 @@ patch:
     # display_tray_icon: false
     # horizontal: true                        # 候選橫排# true 水平排列，false 竖排显示
     inline_preedit: false
-    font_face: "MesloLGSNer-Regular"
+    font_face: "MesloLGS-NF-Regular"
     # font_point: 14
-    label_font_face: "MesloLGSNer-Regular"    # 候选词编号字体
+    label_font_face: "MesloLGS-NF-Regular"    # 候选词编号字体
     # label_font_point: 14                    # 候选编号大小
 
   preset_color_schemes/+:
     apathy/+:
       horizontal: false                       # true 水平排列，false 竖排显示
       inline_preedit: false                   # true 单行显示，false 双行显示
-      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_face: "MesloLGS-NF-Regular"        # 候选词字体
       font_point: 19                          # 候选字词大小
-      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_face: "MesloLGS-NF-Regular"  # 候选词编号字体
       label_font_point: 16                    # 候选编号大小
     solarized_rock/+:
-      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_face: "MesloLGS-NF-Regular"        # 候选词字体
       font_point: 19                          # 候选字词大小
-      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_face: "MesloLGS-NF-Regular"  # 候选词编号字体
       label_font_point: 16                    # 候选编号大小
     azure/+:
-      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_face: "MesloLGS-NF-Regular"        # 候选词字体
       font_point: 19                          # 候选字词大小
-      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_face: "MesloLGS-NF-Regular"  # 候选词编号字体
       label_font_point: 16                    # 候选编号大小
     issenn:
       name: "一閃 / issenn"
       author: "Issenn <issenn@issenn.ml>, based on Aben and Ethan Schoonover's Solarized color scheme"
-      font_face: "MesloLGSNer-Regular"        # 候选词字体
+      font_face: "MesloLGS-NF-Regular"        # 候选词字体
       font_point: 19                          # 候选窗文字字号
-      label_font_face: "MesloLGSNer-Regular"  # 候选词编号字体
+      label_font_face: "MesloLGS-NF-Regular"  # 候选词编号字体
       label_font_point: 16                    # 候选窗编号字号
       horizontal: false                       # 候选窗横向显示
       # inline_preedit: true                    # 开启嵌入编码
